@@ -3,7 +3,7 @@ package codingExercises;
 public class Exercise024_LargestPrime {
 
 	public static void main(String[] args) {
-		int i = -1;
+		int i = 400;
 		System.out.println("The largest Prime Number of " + i + " is " + getLargestPrime(i));
 	}
 	
