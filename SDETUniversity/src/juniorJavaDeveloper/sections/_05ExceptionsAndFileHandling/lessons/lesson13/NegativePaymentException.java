@@ -11,7 +11,8 @@ public class NegativePaymentException extends Exception{
 	}
 	
 	// 3. Override the toString method to include the specific exception message
-	public String toString() {
+	@Override
+  public String toString() {
 		return "Error: Cannot take negative payment " + payment;
 	}
 

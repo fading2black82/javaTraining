@@ -1,7 +1,5 @@
 package juniorJavaDeveloper.sections._06DataStructuresAndCollectionsFramework.lessons.lesson19;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 

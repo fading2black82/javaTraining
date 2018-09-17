@@ -60,7 +60,8 @@ class BankAccount implements IInterest {
 	public void showBalance() {
 		System.out.println("Balance: " + balance);
 	}
-	public void accrue() {
+	@Override
+  public void accrue() {
 		balance = balance * (1 + rate/100);
 		showBalance();
 	}

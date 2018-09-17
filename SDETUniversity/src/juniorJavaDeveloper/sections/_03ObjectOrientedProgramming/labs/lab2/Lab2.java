@@ -81,7 +81,8 @@ class Student {
 		System.out.println(courses);
 	}
 
-	public String toString() {
+	@Override
+  public String toString() {
 		return "[Name: " + name + "]\n[Courses: " + courses + "]\n[Balance: $" + balance + "]";
 	}
 	public String getPhone() {

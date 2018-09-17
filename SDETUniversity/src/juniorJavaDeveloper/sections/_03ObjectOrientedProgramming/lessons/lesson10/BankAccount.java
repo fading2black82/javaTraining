@@ -58,10 +58,12 @@ public class BankAccount implements IRate {
 	}
 
 	// Interface methods
-	public void setRate() {
+	@Override
+  public void setRate() {
 		System.out.println("SETTING RATE");
 	}
-	public void increaseRate() {
+	@Override
+  public void increaseRate() {
 		System.out.println("INCREASING RATE");
 	}
 

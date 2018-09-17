@@ -53,7 +53,8 @@ class InvalidException extends Exception {
 	public InvalidException(String ch) {
 		this.ch = ch;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return "InvalidCharacterException: " + ch;
 	}
 }
@@ -62,7 +63,8 @@ class NumberException extends Exception {
 	public NumberException(String password) {
 		this.password = password;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return "NumberException: " + password;
 	}
 }
@@ -71,7 +73,8 @@ class LetterException extends Exception {
 	public LetterException(String password) {
 		this.password = password;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return "LetterException: " + password;
 	}
 }
@@ -80,7 +83,8 @@ class SpecialException extends Exception {
 	public SpecialException(String password) {
 		this.password = password;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return "SpecialException: " + password;
 	}
 }

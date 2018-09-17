@@ -68,7 +68,8 @@ class TenDigitsException extends Exception {
 	TenDigitsException(String num) {
 		this.num = num;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return ("TenDigitsException: " + num);
 	}
 }
@@ -77,7 +78,8 @@ class AreaCodeException extends Exception {
 	AreaCodeException(String num) {
 		this.num = num;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return ("AreaCodeException: " + num);
 	}
 }
@@ -86,7 +88,8 @@ class EmergencyException extends Exception {
 	EmergencyException(String num) {
 		this.num = num;
 	}
-	public String toString() {
+	@Override
+  public String toString() {
 		return ("EmergencyException: " + num);
 	}
 }
